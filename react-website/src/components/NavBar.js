@@ -29,7 +29,7 @@ function Navbar() {
     <nav className='navbar'>
         <div className='navbar-container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-              FoodFinder <i class="fa-regular fa-image"></i>
+              TRVL <i class="fa-regular fa-image"></i>
             </Link>
             <div className='menu-icon' onClick={handleClick}>
               <i className={click ? "fa-regular fa-x"  : "fa-solid fa-bars"} />
